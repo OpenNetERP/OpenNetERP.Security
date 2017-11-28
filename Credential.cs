@@ -8,7 +8,16 @@ using System.Threading.Tasks;
 
 namespace OpenNetERP.Security
 {
-    public class Credential
+
+    /// <summary>
+    /// Provides credentials for password-based authentication schemes such as basic, digest, NTLM, and Kerberos authentication.
+    /// </summary>
+    /// <remarks>
+    /// The <see cref="Credential">Credential</see> class is a base class that supplies credentials in password-based authentication schemes such as basic, digest, NTLM, and Kerberos. Classes that implement the <see cref="ICredentials">ICredentials</see> interface, such as the <see cref="System.Net.CredentialCache">CredentialCache</see> class, return <see cref="Credential">Credential</see> objects.
+    /// 
+    /// This class does not support public key-based authentication methods such as Secure Sockets Layer(SSL) client authentication.
+    /// </remarks>
+    public class Credential : ICredentials
     {
 
         #region Variables

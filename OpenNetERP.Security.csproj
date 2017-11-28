@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Credential.cs" />
+    <Compile Include="ICredentials.cs" />
     <Compile Include="Principal\GenericIdentity.cs" />
     <Compile Include="Principal\GenericPrincipal.cs" />
     <Compile Include="Principal\IIdentity.cs" />

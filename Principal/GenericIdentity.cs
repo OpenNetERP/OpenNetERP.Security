@@ -11,7 +11,7 @@ namespace OpenNetERP.Security.Principal
     /// </summary>
     [Serializable]
     [System.Runtime.InteropServices.ComVisible(true)]
-    class GenericIdentity : IIdentity
+    public class GenericIdentity : IIdentity
     {
         #region Variables
 
@@ -106,6 +106,6 @@ namespace OpenNetERP.Security.Principal
             m_type = type;
         }
 
-            #endregion
-        }
+        #endregion
+    }
 }

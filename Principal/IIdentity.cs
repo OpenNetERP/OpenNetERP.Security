@@ -11,7 +11,7 @@ namespace OpenNetERP.Security.Principal
     /// Defines the basic functionality of an identity object.
     /// </summary>
     [System.Runtime.InteropServices.ComVisible(true)]
-    interface IIdentity
+    public interface IIdentity
     {
         /// <summary>
         /// Gets the name of the current user.

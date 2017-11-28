@@ -10,7 +10,7 @@ namespace OpenNetERP.Security.Principal
     /// Defines the basic functionality of a principal object.
     /// </summary>
     [System.Runtime.InteropServices.ComVisible(true)]
-    interface IPrincipal
+    public interface IPrincipal
     {
         /// <summary>
         /// Gets the identity of the current principal.
